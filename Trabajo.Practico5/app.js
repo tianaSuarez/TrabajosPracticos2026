@@ -1,15 +1,32 @@
 
-//Declarar variable
-let numero1
-//Asignar valor
-numero1 = 10
-//Declarar y asignar al mismo tiempo
-let numero2= 10 + numero1
-numero1 = 5
-//Mostrar la información
-console.log("Nos vemos en diciembre")
 
-let suma
-let división
-let multiplicación
-let resta
+// Cambiar texto
+let parrafo = document.querySelector("p")
+
+
+let btexto = document.querySelector ("#cambiotexto")
+btexto.onclick = function()
+{
+    parrafo.textContent = "este texto cambio"
+}
+
+// Cambiar fondo
+let btexto = document.querySelector ("#cambiofondo")
+btexto.onclick = function()
+{
+  parrafo.style.backgroundColor = "light blue"
+}
+
+// Cambiar color
+let btexto = document.querySelector ("#cambiocolor")
+btexto.onclick = function()
+{
+    parrafo.style.color
+}
+
+// Cambiar letra
+let btexto = document.querySelector ("#cambioletra")
+btexto.onclick = function()
+{
+    parrafo.style.fontFamily = "IMPACT"
+}
